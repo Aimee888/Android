@@ -1,4 +1,4 @@
-package com.aimee.android.play.createdb;
+package com.aimee.android.play.createdb2;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -15,7 +15,7 @@ public class MyDBOpenHelper extends SQLiteOpenHelper {
      * @param context
      */
     public MyDBOpenHelper(Context context) {
-        super(context, "glsite", null, 4);
+        super(context, "glsite", null, 1);
     }
 
     /**
